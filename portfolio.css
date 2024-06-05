@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+}
+
+body {
+    color: #ededed;
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: rgb(240, 12, 12);
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+
+
+}
+
+.navbar a {
+    display: inline-block;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: aqua;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    /* background: url("./imges/nhuman.webp"); */
+    background-image: url("/imges/OIP.jpg");
+    background-size: cover; */
+     background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+} 
+
+.home-content {
+    max-width: 600px;
+
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.home-content h3:nth-of-type(2) {
+    margin-bottom: 30px;
+}
+
+.home-content h3 span {
+    color: aquamarine;
+}
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+
+.home-content p {
+    font-size: 20px;
+
+}
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    font-size: 20px;
+    color: aqua;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+
+.home-sci a:hover {
+    background: aqua;
+    color: black;
+    box-shadow: 0 0 20px aqua;
+}
+
+.btn-box {
+    display: inline-block;
+    padding: 20px 28px;
+    background: aqua;
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 1;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.btn-box :hover {
+    box-shadow: 0 0 5px aqua,
+        0 0 15px cyan,
+}
+
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 1.5rem;
+    background-color: black;
+    /* background: url("./imges/nhuman.webp") no-repeat;
+    background-size: cover; */
+}
+
+.about-img img{
+    padding-bottom: 20px;
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 100PX;
+}
+
+
+
+.about-text h2{
+    font-size: 60px;
+}
+.about-text h2 span{
+    color: aqua;
+}
+.about-text h4{
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+
+.about-text p{
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+    border: 2PX SOLID RED;
+    padding-right: 100PX;
+}
+
+#services{
+    background-color: black;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 1.4rem;
+}
+
+.sub-title{
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 70px;
+}
+
+.sub-title span{
+    color:aqua
+}
+
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(159px,1fr));
+    grid-gap:40px;
+    margin-top: 50px;
+}
+.services-list div{
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-left: 10px;
+    border: 20px;
+}
+
+.contener{
+    /* margin: 0; */
+    padding: 90px;
+    /* background-color: rgb(239, 14, 14); */
+}
+
+#skills {
+    background-color: black;
+   
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#skills h2 {
+    text-align: center;
+    color:white;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.skill {
+    width: 45%;
+    margin: 10px 0;
+}
+
+.skill h3 {
+    margin-bottom: 5px;
+    color: aqua;
+}
+
+.skill-level {
+    background: #eee;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-level .level {
+    height: 20px;
+    background: #2ffb06;
+    border-radius: 5px;
+}
